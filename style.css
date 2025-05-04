@@ -25,7 +25,9 @@ html {
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
 }
-
+#h1{
+    text-align: center;
+}
 #stars {
     width: 1px;
     height: 1px;
