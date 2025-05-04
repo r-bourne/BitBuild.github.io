@@ -19,15 +19,12 @@ html {
     margin-top: -60px;
     padding-left: 10px;
 }
+.img-folder{
+    height: 500px;
+    width: 500px;
+    float: right;
+}
 
-#title span {
-     background: -webkit-linear-gradient(white, #38495a);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-}
-#h1{
-    text-align: center;
-}
 #stars {
     width: 1px;
     height: 1px;
