@@ -25,19 +25,58 @@
             color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
         }
         h1{
-            font-size: 50px;
-            text-align: center;
-            font-family: 'Times New Roman', Times, serif;
-            background: -webkit-linear-gradient(white, #38495a);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        background: -webkit-linear-gradient(white, #38495a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         }
+
         p{
+        font-size: 20px;
+        text-align: center;
+        background: -webkit-linear-gradient(white, #38495a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        } 
+        .flex-container{
+            margin: 0;
+            padding: 0;
+            color:black;
+            font-family: 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .container-box{
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(white, #223d58) ;
             font-size: 25px;
-            background: -webkit-linear-gradient(white, #38495a);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-        }     
+            text-align: center;
+            line-height: 200px;
+            border-radius: 20px;
+            margin: 10px;
+            color: black;
+            transition: 1s;
+        } 
+        .container-box:hover{
+            transform: scale(1.3);
+            z-index:2;
+        }
+        .profile{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        } 
+        a{
+           color: black;
+           font-size: 30px;
+           font-weight: 800;
+        }
     </style>
 
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -61,7 +100,23 @@
     <div id="stars3"></div>
     <div id="title">
     </div>
+
+    <img src="img/spiral.jpg" class="profile">
     <h1>I'm Raphael Bourne welcome to my Portfoilo</h1>
-    <p>This page showcase all my work as a college student</p>
+
+    <div class="flex-container">
+        <div class="container-box">
+            <a href="https://docs.google.com/document/d/1g_MXhMPJq414FDQWNI9k6uQhkrpu7ConUH6LNx5pNrY/edit?usp=sharing" target="_blank">Linux Lab: Gzip, tar</a>
+        </div>
+        <div class="container-box">
+           <a href="https://docs.google.com/document/d/1RfpGNhHwwbeg6GS88KEmf1LR8gGq3DnaoGRjGwvnoLk/edit?usp=sharing" target="_blank"> Linux Lab: Grep and find </a>
+        </div>
+        <div class="container-box">
+           <a href="https://docs.google.com/document/d/1WB73o6_8b07Ikc2qKLyipfRkL8OCzFEDQBi4pgD3SlE/edit?usp=sharing" target="_blank">Linux Lab: Processe</a>
+        </div>
+        <div class="container-box">
+           <a href="https://docs.google.com/document/d/1I30TYtivwrzVbhGW0PC8eAqeq_A4wW3hNpN68QQjP9c/edit?usp=sharing" target="_blank">Lab: Git</a> 
+        </div>
+    </div>
 </body>
 </html>
